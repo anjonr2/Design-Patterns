@@ -1,4 +1,4 @@
-package com.designpatterns.behavioral;
+package com.designpatterns.behavioral.State;
 
 public class VendingMachineContext {
     private VendingMachineState state;

@@ -6,10 +6,14 @@ public class Logger {
          //private constructor to prevent multiple creation of multiple instances
     }
 
-    private static Logger getLogger(){
+    public static Logger getLogger(){
         if(logger==null){
             logger= new Logger();
         }
         return  logger;
+    }
+
+    public void log(String message){
+        System.out.println("Log: "+message);
     }
 }
